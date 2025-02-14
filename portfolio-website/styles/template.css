@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+:root {
+  --font-primary: "Gochi Hand", serif;
+  --font-secondary: "Poppins", serif;
+  --color-primary: rgb(15, 15, 15);
+  --color-primary-text: rgb(26, 26, 26);
+  --max-width: 1800px;
+
+  --color-base: rgba(255, 255, 255, 0.384);
+  --color-base-hover: rgba(255, 255, 255, 0.63);
+  --border-radius: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: var(--font-secondary);
+  color: var(--color-primary-text);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.max-width {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+#disclaimer {
+  display: none;
+  font-size: x-large;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    display: none;
+  }
+
+  #disclaimer {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+  }
+}
