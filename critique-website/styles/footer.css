@@ -1,0 +1,205 @@
+footer {
+  margin-top: 5rem;
+  border-top: 1px solid var(--color-bg-tertiary);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(180deg, rgb(27, 27, 27) 0%, #08090a 60%);
+}
+
+footer .newsletter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+
+  width: 100%;
+
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+footer .newsletter-container h1 {
+  font-size: 3rem;
+  background: var(--heading-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+footer .newsletter-container p {
+  color: var(--color-text-secondary);
+}
+
+footer .newsletter-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+footer .newsletter-container form input {
+  padding: 0.8rem;
+  width: 40%;
+  border: 1px solid var(--color-bg-tertiary);
+  border-radius: 5px;
+}
+
+footer .newsletter-container form button {
+  all: unset; /* Removes all default styling */
+  background: none; /* Removes default background */
+  border: none; /* Removes the border */
+  padding: 0; /* Removes padding */
+  font: inherit; /* Inherit the font from the parent element */
+  cursor: pointer; /* Set the cursor to pointer */
+  text-align: center; /* Optional: aligns text */
+
+  cursor: pointer;
+  color: var(--color-bg-primary);
+  background-color: var(--color-text-primary);
+  padding: 0.8rem 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 900;
+
+  background-image: url("../assets/hero/texture.png");
+  background-size: contain;
+  background-position: center;
+}
+
+footer .newsletter-container form button:hover {
+  opacity: 0.8;
+}
+
+footer .footer-container {
+  border-top: 1px solid var(--color-bg-tertiary);
+  width: 100%;
+
+  max-width: 1200px;
+  margin: auto;
+}
+
+footer .footer-container .content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+footer .footer-container .content #brand {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-decoration: none;
+  line-height: 1;
+}
+
+footer .footer-container .content #brand img {
+  width: 48px;
+  height: 48px;
+}
+
+footer .footer-container .content #brand h1 {
+  font-size: 1.5rem;
+  color: var(--color-text-primary);
+}
+
+footer .footer-container .content #brand p {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+}
+
+footer .footer-container #right {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-text-tertiary);
+
+  gap: 4rem;
+}
+
+footer .footer-container #right h3 {
+  color: var(--color-text-primary);
+  margin-bottom: 8px;
+}
+
+footer .footer-container #right #quick-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+footer .footer-container #right #contact {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+footer .footer-container #right #quick-links a {
+  list-style: none;
+  color: var(--color-text-tertiary);
+  text-decoration: none;
+}
+
+footer .footer-container #right #quick-links a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-container #bottom {
+  border-top: 1px solid var(--color-bg-tertiary);
+  width: 100%;
+  padding: 1rem;
+
+  font-size: 0.8rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-text-tertiary);
+}
+
+footer .footer-container #bottom #socials {
+  display: flex;
+  gap: 1rem;
+}
+
+footer .footer-container #bottom #socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+
+  text-decoration: none;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-tertiary);
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+
+  cursor: pointer;
+}
+
+footer .footer-container #bottom #socials a:hover {
+  opacity: 0.8;
+}
+
+/* facebook */
+footer .footer-container #bottom #socials a:hover:nth-child(1) {
+  color: #0762f8;
+}
+
+/* instagram */
+footer .footer-container #bottom #socials a:hover:nth-child(3) {
+  color: #f74e68;
+}
+
+/* linkedin */
+footer .footer-container #bottom #socials a:hover:nth-child(4) {
+  color: #0471ae;
+}

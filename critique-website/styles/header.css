@@ -1,0 +1,156 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-bg-primary);
+  border-bottom: 1px solid var(--color-bg-tertiary);
+
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+
+  top: 0;
+}
+
+header .header-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1rem;
+
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+header #title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+header #title img {
+  width: 32px;
+  height: 32px;
+}
+
+header #title h1 {
+  font-size: 1.1rem;
+  color: var(--color-text-primary);
+}
+
+header #title:hover h1 {
+  text-decoration: underline;
+}
+
+nav {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav .nav-item {
+  text-decoration: none;
+  color: var(--color-text-tertiary);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 0.8rem;
+  position: relative;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav .nav-item:hover {
+  background-color: var(--color-bg-quaternary);
+  color: var(--color-text-primary);
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+  background-color: var(--color-bg-secondary);
+  border: 8px solid var(--color-bg-primary);
+  outline: 1px solid var(--color-bg-tertiary);
+  padding: 1rem;
+  border-radius: 5px;
+
+  width: 360px;
+}
+
+.dropdown-menu h3 {
+  font-weight: 500;
+  font-size: 12px;
+  color: #63666d;
+  padding-bottom: 14px;
+
+  text-indent: 5px;
+}
+
+.dropdown-menu ul {
+  padding: 0;
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  visibility: visible;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: var(--color-text-primary);
+  border-radius: 5px;
+  padding: 5px 10px;
+
+  display: block;
+}
+
+.dropdown-menu li a p {
+  font-size: 0.8rem;
+}
+
+.dropdown-menu li a p:last-child {
+  font-weight: 500;
+  font-size: 12px;
+  color: #63666d;
+}
+
+.dropdown-menu li a:hover {
+  background-color: var(--color-bg-quaternary);
+}
+
+header .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header .nav-right a {
+  text-decoration: none;
+
+  color: var(--color-bg-primary);
+  background-color: var(--color-text-primary);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+
+  background-image: url("../assets/hero/texture.png");
+  background-size: contain;
+  background-position: center;
+}
+
+header .nav-right a:hover {
+  opacity: 0.8;
+}

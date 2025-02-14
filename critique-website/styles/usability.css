@@ -1,0 +1,132 @@
+/* Main container settings */
+#usedbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-primary);
+  margin-bottom: 1rem;
+}
+
+/* Title Styling */
+#usedtitle {
+  font-size: 2.5rem;
+  color: var(--color-text-secondary);
+  text-align: center;
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+#usedminititle {
+  font-size: 1.5rem;
+  color: var(--color-text-secondary);
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+/* General Text Box (Usability Introduction) */
+#usedtext {
+  font-size: 1rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  text-align: center;
+  flex-grow: 1;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 2px solid var(--color-text-secondary);
+
+  max-width: var(--max-width);
+}
+
+/* Flexbox for Layout */
+#usedrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#usedcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Boxes */
+#usedlittlebox {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  max-width: 600px;
+  box-sizing: border-box;
+  min-height: 500px;
+  max-height: 500px;
+  border-radius: 8px;
+  padding: 0.3rem;
+  margin: auto;
+
+  background-color: #141414;
+  border: 1px solid var(--color-bg-tertiary);
+
+  background-image: url("../assets/hero/texture.png");
+  background-size: cover;
+  background-position: center;
+
+  box-shadow: 0 0 5px 1px var(--color-text-primary);
+}
+
+#usedlengthybox {
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  max-width: 500px;
+  box-sizing: border-box;
+  min-height: 1020px;
+  max-height: 1020px;
+  margin-top: 1rem;
+  border-radius: 8px;
+  padding: 0.3rem;
+  margin: auto;
+  margin-bottom: 1rem;
+
+  background-color: #141414;
+  border: 1px solid var(--color-bg-tertiary);
+
+  background-image: url("../assets/hero/texture.png");
+  background-size: cover;
+  background-position: center;
+
+  box-shadow: 0 0 5px 1px var(--color-text-primary);
+}
+
+/* box design */
+#usedlittlebox:hover,
+#usedlengthybox:hover {
+  box-shadow: 0 0 15px 5px rgb(255, 255, 255);
+}
+
+/* Content Text */
+#usedcontenttext {
+  font-size: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  flex-grow: 1;
+  min-height: 100px;
+  margin: 0;
+}
+
+/* Content Image */
+#usedimage {
+  max-width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid var(--color-text-secondary);
+  box-shadow: 0 0 4px 1px var(--color-text-primary);
+}

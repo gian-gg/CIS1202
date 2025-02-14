@@ -1,0 +1,88 @@
+.access-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin: auto;
+}
+
+.access-section .access-content-section {
+  max-width: var(--max-width);
+}
+
+.access-section #access-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.access-section #access-heading h1 {
+  font-size: 4rem;
+  font-weight: 900;
+
+  background: var(--heading-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.access-section #access-heading p {
+  color: var(--color-text-secondary);
+  font-size: 14px;
+}
+
+.access-section #boxes-container {
+  margin-top: 3rem;
+
+  display: flex;
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; */
+
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.access-section .box {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+
+  background-color: #141414;
+  border: 1px solid var(--color-bg-tertiary);
+
+  background-image: url("../assets/hero/texture.png");
+  background-size: cover;
+  background-position: center;
+
+  padding: 2rem;
+}
+
+.access-section #boxes-container .box #something,
+li {
+  color: var(--color-text-secondary);
+}
+
+.access-section #boxes-container .box h3 {
+  margin-top: 1rem;
+}
+
+.access-section #example {
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  margin-top: 8rem;
+  transform: translate(-50px, 50px);
+}
+
+.access-section #example h2 {
+  font-size: 1rem;
+}

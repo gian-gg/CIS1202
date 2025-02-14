@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Group 4 | Critique Website</title>
+
+    <link rel="stylesheet" href="./styles/template.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+
+    <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/intro.css" />
+    <link rel="stylesheet" href="./styles/html.css" />
+    <link rel="stylesheet" href="styles/css.css" />
+    <link rel="stylesheet" href="./styles/usability.css" />
+    <link rel="stylesheet" href="./styles/access.css" />
+
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="disclaimer">
+      <h1>
+        This website is not designed to be responsive. Please view on a desktop.
+      </h1>
+      <img src="./assets/cat-stare.gif" alt="cat stare" />
+    </div>
+    <!-- header::navbar -->
+    <header>
+      <div class="header-content-container">
+        <a id="title" href="#hero">
+          <img src="./assets/logo.png" alt="website logo" />
+          <h1>Mommy Studios</h1>
+        </a>
+        <nav>
+          <a class="nav-item" href="#hero">Home</a>
+          <a class="nav-item" href="#introduction">Introduction</a>
+          <div class="dropdown">
+            <a class="nav-item" href="#critique">Website Critique</a>
+            <div class="dropdown-menu">
+              <h3>Explore</h3>
+              <ul>
+                <li>
+                  <a href="#html">
+                    <p>HTML Structure</p>
+                    <p>Lorem, ipsum dolor.</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#css">
+                    <p>CSS Styling</p>
+                    <p>Lorem, ipsum dolor.</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#usability">
+                    <p>Usability</p>
+                    <p>Lorem, ipsum dolor.</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#accessibility">
+                    <p>Accessibility</p>
+                    <p>Lorem, ipsum dolor.</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a
+            class="nav-item"
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            target="_blank"
+            >Press Me</a
+          >
+        </nav>
+        <div class="nav-right">
+          <a href="#footer">Contact Us</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <section id="hero" class="section-container hero-section">
+        <div class="hero-content-container">
+          <div class="hero-text">
+            <h1>CLEAN HTML, BETTER CODE</h1>
+            <p>
+              Structure your code like a pro—learn the best practices for
+              writing clean and organized CODE.
+            </p>
+          </div>
+
+          <div id="button-container">
+            <img src="./assets/hero/arrow.png" alt="arrow" draggable="false" />
+            <a href="#introduction">Get Started!</a>
+            <img src="./assets/hero/arrow.png" alt="arrow" draggable="false" />
+          </div>
+
+          <div class="author-icons">
+            <img src="./assets/authors/aloba.png" alt="Aloba" />
+            <img src="./assets/authors/epanto.png" alt="Epanto" />
+            <img src="./assets/authors/osbev.jpeg" alt="Cabucos" />
+            <img src="./assets/authors/rama.jpg" alt="Rama" />
+          </div>
+
+          <div class="info-container">
+            <div class="info-item">
+              <h2>HTML Structure</h2>
+              <p>
+                Learn how to structure your HTML code to make it more readable
+                and maintainable.
+              </p>
+            </div>
+
+            <div class="info-item">
+              <h2>CSS Styling</h2>
+              <p>
+                Learn how to style your website using CSS and make it look
+                visually appealing.
+              </p>
+            </div>
+            <div class="info-item">
+              <h2>Usability & Accessibility</h2>
+              <p>
+                Learn how to make your website user-friendly and accessible to
+                all users.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="introduction"
+        class="section-container introduction-container"
+      >
+        <div class="introduction-content-container">
+          <div id="top">
+            <div id="title">
+              <p>CODE WITH A PURPOSE.</p>
+              <h1>WHY BOTHER?</h1>
+            </div>
+            <p>
+              Clean code makes software easier to understand, modify, and expand
+              while keeping it efficient and reliable.
+            </p>
+          </div>
+          <ul>
+            <li>
+              <img
+                src="./assets/intro/maintenace.svg"
+                alt="maintenance"
+                draggable="false"
+              />
+              <h2>Maintenance</h2>
+              <p>
+                Well-structured code simplifies debugging, updates, and
+                long-term improvements.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./assets/intro/collaboration.svg"
+                alt="collaboration"
+                draggable="false"
+              />
+              <h2>Collaboration</h2>
+              <p>
+                Readable code allows teams to work together seamlessly and
+                efficiently.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./assets/intro/graph.svg"
+                alt="graph"
+                draggable="false"
+              />
+              <h2>Scalability</h2>
+              <p>
+                Good code design supports growth and adapts to increasing
+                demands.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-container intro2-container">
+        <div id="critique" class="intro2-content-container">
+          <div id="heading">
+            <p id="subheading">Not Yet Convinced?</p>
+            <h1>Let's Dive Deeper!</h1>
+          </div>
+          <div id="content">
+            <div id="content-container">
+              <h2>Introduction</h2>
+              <p>
+                We’ve selected a website example to demonstrate the power of
+                clean, well-structured code. In this guide, you’ll learn the
+                importance of organizing your HTML and CSS, while also exploring
+                how a website’s usability and accessibility play a crucial role
+                in creating a seamless user experience. After all, these
+                elements are what truly define a website’s quality and impact!
+              </p>
+              <img src="./assets/intro/menu.png" alt="menu" draggable="false" />
+            </div>
+            <div id="content-container">
+              <img src="./assets/intro/yale.png" alt="menu" draggable="false" />
+              <h2>www.art.yale.edu</h2>
+              <p>
+                The Yale School of Art website despite its lackluster and
+                chaotic design, serves as an excellent case study for
+                understanding the importance of clean code. By examining its
+                structure, styling, and overall user experience, we can uncover
+                valuable insights on what to do—and what not to do—when building
+                a website.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="critique-title-container">
+        <div class="container">
+          <h1>Yale School of Art: Masterpiece or Mayhem?</h1>
+          <p>
+            Exploring the bold, chaotic design of Yale’s website—what it teaches
+            us about code structure, usability, and accessibility.
+          </p>
+        </div>
+      </section>
+      <section id="html" class="section-container html-container">
+        <div class="html-content-container">
+          <div id="top">
+            <div id="desc">
+              <h1>HTML Structure</h1>
+              <p>
+                HTML is the backbone of every webpage, defining its content and
+                organization. A well-structured HTML document isn’t just about
+                making things work—it ensures readability, maintainability, and
+                accessibility. By following proper structure, your code becomes
+                easier to understand for both developers and browsers, leading
+                to better performance and user experience.
+              </p>
+              <ul>
+                <li>
+                  <i id="first" class="fa fa-tags" aria-hidden="true"></i
+                  >Semantic HTML Elements
+                </li>
+                <li>
+                  <i
+                    id="second"
+                    class="fa fa-caret-square-o-right"
+                    aria-hidden="true"
+                  ></i
+                  >Proper Nesting & Indentation
+                </li>
+                <li>
+                  <i id="third" class="fa fa-code" aria-hidden="true"></i
+                  >Overall Structure
+                </li>
+              </ul>
+            </div>
+            <img
+              src="./assets/html/source_code.png"
+              alt="source_code"
+              draggable="false"
+            />
+          </div>
+          <div id="bottom">
+            <div class="container">
+              <h3>Using Semantic Elements</h3>
+              <ul>
+                <li>
+                  Semantic elements like <code>&lt;header&gt;</code>,
+                  <code>&lt;article&gt;</code>, and
+                  <code>&lt;section&gt;</code> provide meaningful structure to
+                  your code. They enhance readability, improve accessibility for
+                  screen readers, and help search engines better understand your
+                  content.
+                </li>
+                <li>
+                  The Yale School of Art website makes use of semantic elements
+                  such as
+                  <code>&lt;nav&gt;</code>, <code>&lt;header&gt;</code>,
+                  <code>&lt;footer&gt;</code>, and <code>&lt;main&gt;</code>.
+                  However, despite incorporating these tags, their overall
+                  implementation lacks proper organization, affecting clarity
+                  and usability.
+                </li>
+              </ul>
+            </div>
+
+            <div class="container">
+              <h3>Proper Nesting & Indentation</h3>
+              <ul>
+                <li>
+                  Properly nested elements and consistent indentation make your
+                  HTML more structured, reducing errors and improving
+                  collaboration. A well-indented document is easier to debug,
+                  maintain, and scale over time.
+                </li>
+                <li>
+                  Upon inspecting the Yale School of Art website's source code,
+                  it becomes evident that nesting and indentation are
+                  inconsistently applied. This results in a cluttered,
+                  difficult-to-read structure, making maintenance and debugging
+                  more challenging.
+                </li>
+              </ul>
+            </div>
+
+            <div class="container">
+              <h3>Overall Structure</h3>
+              <ul>
+                <li>
+                  A well-organized HTML structure follows a logical hierarchy,
+                  making content easy to navigate and maintain. Clearly defined
+                  sections contribute to better scalability, accessibility, and
+                  overall user experience.
+                </li>
+                <li>
+                  In addition to inconsistent nesting and indentation, the Yale
+                  School of Art website's source code contains stray elements,
+                  such as unclosed or unnecessary tags. These issues not only
+                  impact readability but also introduce potential rendering
+                  problems, which could be resolved with a more structured
+                  approach.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CSS Styling -->
+      <section id="css" class="css-section">
+        <div class="css-content-container">
+          <div id="css-head">
+            <div id="css-title">
+              <h1><span>CSS</span> Styling</h1>
+            </div>
+            <div id="css-wqs">
+              <div class="wqs-content">
+                <h3>What is CSS?</h3>
+                <p>
+                  CSS (Cascading Style Sheets) is the language used to style and
+                  design websites. It controls the visual presentation of HTML
+                  elements, including layout, colors, fonts, spacing, and
+                  responsiveness. Without CSS, websites would look like basic
+                  text documents with no structure or visual appeal.
+                </p>
+                <img src="./assets/css/compiler.png" />
+              </div>
+              <div class="wqs-content">
+                <h3>Why is CSS Styling Important?</h3>
+                <p>
+                  CSS is a cornerstone of modern web development for several
+                  reasons:
+                </p>
+                <ul>
+                  <li>
+                    <img src="./assets/css/icon1.png" alt="" />
+                    <p>
+                      CSS makes websites visually engaging, which is crucial for
+                      retaining user interest and creating a positive first
+                      impression.
+                    </p>
+                  </li>
+                  <li>
+                    <img src="./assets/css/icon2.png" alt="" />
+                    <p>
+                      It ensures a uniform design across all pages, creating a
+                      cohesive and professional user experience.
+                    </p>
+                  </li>
+                  <li>
+                    <img src="./assets/css/icon3.png" alt="" />
+                    <p>
+                      CSS allows websites to adapt to different screen sizes,
+                      ensuring usability on desktops, tablets, and mobile
+                      devices.
+                    </p>
+                  </li>
+                  <li>
+                    <img src="./assets/css/icon4.png" alt="" />
+                    <p>
+                      Proper use of CSS improves readability and usability for
+                      all users, including those with disabilities.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- css critique -->
+      <section id="css2" class="css-section">
+        <div class="line-with-text">
+          <div class="line"></div>
+          <h2>Example: Critique of the<br />Yale School of Art Website</h2>
+          <div class="line"></div>
+        </div>
+        <div id="csscrit" class="csscrit-content-container">
+          <div class="css-qs">
+            <ul>
+              <li>
+                <img src="./assets/css/qmark.png" alt="qmark-icon" />
+                <p>
+                  Is the layout visually appealing and consistent across the
+                  website?
+                </p>
+              </li>
+              <li>
+                <img src="./assets/css/qmark.png" alt="qmark-icon" />
+                <p>
+                  Does the website use responsive design techniques? Test it on
+                  different screen sizes.
+                </p>
+              </li>
+              <li>
+                <img src="./assets/css/qmark.png" alt="qmark-icon" />
+                <p>Are colors, fonts, and spacing used effectively?</p>
+              </li>
+            </ul>
+          </div>
+          <div class="content-box">
+            <div class="cont-sent">
+              <h3>Visual Appeal and Consistency</h3>
+              <p>
+                The website features a high-contrast background image with
+                various colors and elements that overpower the content, making
+                it visually distracting. Different sections utilize inconsistent
+                styles, leading to a fragmented design. Some areas follow a
+                structured layout, while others appear cluttered due to varying
+                font sizes, alignments, and spacing.
+              </p>
+              <br />
+              <p>
+                A well-structured and visually cohesive website enhances
+                readability and usability. When the design is consistent, users
+                can navigate more efficiently and focus on the content rather
+                than being distracted by visual inconsistencies. Establishing a
+                unified design language helps maintain professionalism and
+                improves user engagement.
+              </p>
+            </div>
+            <div class="cont-img">
+              <img
+                class="im1 imfirst"
+                src="./assets/css/yale 1.png"
+                alt="yale"
+                width="200px"
+              />
+              <img class="im2" src="./assets/css/yale 2.png" alt="yale" />
+            </div>
+          </div>
+          <div class="content-box">
+            <div class="cont-sent">
+              <h3>Responsive Design</h3>
+              <p>
+                The website integrates responsive design elements such as a
+                dropdown navigation bar for smaller screens and a content
+                structure that shifts dynamically. On mobile devices, side
+                content is repositioned effectively. However, on larger screens,
+                improper alignment and excessive whitespace make the layout
+                appear unbalanced. Some sections remain compact, while others
+                leave large gaps, suggesting an inefficient application of CSS
+                media queries and flex/grid properties.
+              </p>
+              <br />
+              <p>
+                A fully responsive website ensures accessibility and usability
+                across various devices. Proper layout adjustments improve
+                content presentation, preventing disorganized elements from
+                affecting readability. Implementing a more optimized grid or
+                flexbox structure would allow for better proportional scaling
+                across different screen sizes.
+              </p>
+            </div>
+            <div class="cont-img">
+              <img class="im1 imsec" src="./assets/css/yale 3.png" alt="yale" />
+              <img class="im2" src="./assets/css/yale 4.png" alt="yale" />
+            </div>
+          </div>
+          <div class="content-box">
+            <div class="cont-sent">
+              <h3>Color, Font, and Spacing</h3>
+              <p>
+                The website employs vibrant and gradient background colors that
+                do not complement the content, reducing readability. Black text
+                over intense backgrounds creates poor contrast, straining the
+                eyes. While the font choice itself is clear and readable,
+                inconsistencies in font sizes and spacing between elements
+                disrupt the overall flow. The right side of the layout contains
+                excessive empty space on larger screens, which could have been
+                utilized for better content distribution.
+              </p>
+              <br />
+              <p>
+                Effective use of color, font, and spacing significantly enhances
+                user experience. High-contrast backgrounds should be avoided to
+                maintain readability, and consistent typography ensures a smooth
+                visual flow. Addressing spacing issues can create a more
+                structured layout, making the website easier to navigate and
+                visually appealing across all screen sizes.
+              </p>
+            </div>
+            <div class="cont-img">
+              <img
+                class="im1 imthird"
+                src="./assets/css/yale 6.png"
+                alt="yale"
+              />
+              <img class="im2" src="./assets/css/yale 5.png" alt="yale" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="usability">
+        <section id="usedbox">
+          <div id="usedtitle">
+            <h2>Usability</h2>
+          </div>
+          <div id="usedtext">
+            <p>
+              Usability pertains to how easily and effectively a user can
+              interact with an application, computer system, or website to
+              accomplish its intended purpose or specific objectives. A highly
+              user-friendly website enhances the user's experience while
+              navigating. It ensures users are aware of their actions and helps
+              them understand where they are within the site.
+            </p>
+          </div>
+          <div id="usedrow">
+            <div id="usedcolumn">
+              <section id="usedlittlebox">
+                <div id="usedminibox1">
+                  <div id="usedminititle">
+                    <h3>Organization Problems</h3>
+                  </div>
+                  <div id="usedcontenttext">
+                    <img src="./assets/usability/Organize.PNG" id="usedimage" />
+                    <br />
+                    <p>
+                      As seen in the image above, the website's styling raises
+                      concerns, potentially leaving users feeling disoriented
+                      and confused during navigation. While the provided links
+                      function correctly and are appropriately labeled to
+                      indicate their destinations, the overall disorganization
+                      of the menus may contribute to user confusion.
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <section id="usedlittlebox">
+                <div id="usedminibox2">
+                  <div id="usedminititle">
+                    <h3>Clutters of Confusion</h3>
+                  </div>
+                  <div id="usedcontenttext">
+                    <img src="./assets/usability/Clutter.PNG" id="usedimage" />
+                    <br />
+                    <p>
+                      The text in the website is fairly readable, although the
+                      line spacing requires some adjustment. However, the design
+                      choices raise concerns, specifically the use of different
+                      colored backgrounds for each paragraph, coupled with a
+                      repetitive background image, may cause users to feel
+                      disoriented or confused while reading the content on the
+                      website.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <section id="usedlengthybox">
+              <div id="usedminibox3">
+                <div id="usedminititle">
+                  <h3>Recommendations</h3>
+                </div>
+                <div id="usedcontenttext">
+                  <li>
+                    To enhance user navigation, it is essential to incorporate a
+                    well-structured section within the navigation bar. The
+                    design should remain straightforward, serving primarily to
+                    guide users rather than overwhelm them.
+                  </li>
+                  <br /><br />
+                  <li>
+                    The website should be organized into distinct sections, each
+                    serving a specific purpose such as a section for content,
+                    another for announcements, and a dedicated navigation bar.
+                    This approach will mitigate user confusion while navigating
+                    the site.
+                  </li>
+                  <br /><br />
+                  <li>
+                    Additionally, each text block should feature a cohesive
+                    background that complements its section or seamlessly
+                    integrates with the overall design. This will help organize
+                    the content effectively, facilitating smoother navigation as
+                    users scan the website.
+                  </li>
+                  <br /><br />
+                  <li>
+                    It is also critical to avoid clutter by not combining all
+                    content, navigation elements, announcements, and
+                    functionalities into a single area. Such an accumulation
+                    would lead to a disorganized and chaotic website, making
+                    navigation cumbersome for users.
+                  </li>
+                  <br /><br />
+                  <hr />
+                  <br />
+                  <p>
+                    With these practices in mind, the website would
+                    significantly enhance user-friendliness for individuals
+                    navigating its pages. While there are numerous additional
+                    strategies that can further improve the website, I have
+                    outlined some fundamental yet essential practices that are
+                    crucial for creating a user-friendly experience for all.
+                  </p>
+                  <br />
+                  <hr />
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </section>
+
+      <section id="accessibility" class="section-container access-section">
+        <div class="access-content-section">
+          <div id="access-heading">
+            <h1>Accessibility</h1>
+            <p>
+              Ensures that everyone, regardless of ability, can navigate,
+              understand, and interact with a website seamlessly.
+            </p>
+          </div>
+          <ul id="boxes-container">
+            <li class="box">
+              <h2>Problem #1</h2>
+              <p id="something">
+                The website does not include images, videos, or other multimedia
+                elements that can be accompanied by alt attributes, limiting
+                accessibility for visually impaired users.
+              </p>
+              <h3>Improvements:</h3>
+              <ul>
+                <li>
+                  Introduce relevant images, videos, or embedded content to
+                  enhance the website’s engagement and usability.
+                </li>
+                <li>
+                  Ensure that all multimedia elements include descriptive alt
+                  text so screen readers can convey their meaning to users with
+                  visual impairments.
+                </li>
+              </ul>
+            </li>
+            <li class="box">
+              <h2>Problem #2</h2>
+              <p id="something">
+                Although the site supports navigation with the Tab, Shift+Tab,
+                and arrow keys, users struggle to identify which section they
+                are currently on due to low contrast, poor positioning, and lack
+                of visual indicators.
+              </p>
+              <h3>Improvements:</h3>
+              <ul>
+                <li>
+                  Add clear visual indicators, such as borders or background
+                  color changes, to highlight the active section when navigating
+                  via keyboard.
+                </li>
+                <li>
+                  Optimize the layout by making better use of available space,
+                  ensuring that sections are distinguishable and well-structured
+                  for easier navigation.
+                </li>
+              </ul>
+            </li>
+            <li id="example" class="box">
+              <h2>An Example of this Navigation Problem:</h2>
+              <img src="./assets/Example.jpg" alt="example" />
+              <p>
+                The calendar or the subscribe button is currently accessed but
+                is not observable.
+              </p>
+            </li>
+            <li class="box">
+              <h2>Problem #3</h2>
+              <p id="something">
+                The website does not meet proper contrast ratio standards,
+                making it difficult for users with visual impairments to read
+                text and identify interface components effectively.
+              </p>
+              <h3>Improvements:</h3>
+              <ul>
+                <li>
+                  Adjust color choices to comply with WCAG 2.1 guidelines,
+                  maintaining a minimum contrast ratio of 3:1 for UI components
+                  and graphical elements.
+                </li>
+                <li>
+                  Improve readability by adjusting layout elements, such as
+                  centering content and reducing background distractions,
+                  ensuring a clearer and more visually accessible experience.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="newsletter-container">
+        <h1>Want to Hear More from Us?</h1>
+        <p>Clean code, pro tips, and updates—right in your inbox.</p>
+        <form action="">
+          <input
+            type="email"
+            placeholder="Enter your email to subscribe to our Newsletter!"
+            required
+          />
+          <button>SUBSCRIBE</button>
+        </form>
+      </div>
+      <div class="footer-container">
+        <div class="content">
+          <div id="left">
+            <div id="brand">
+              <img
+                src="./assets/logo.png"
+                alt="website logo"
+                draggable="false"
+              />
+              <h1>Mommy Studios</h1>
+              <p>Messy code? Not on mommy’s watch!</p>
+            </div>
+          </div>
+          <div id="right">
+            <div id="quick-links">
+              <h3>Quick Links</h3>
+              <ul>
+                <li>
+                  <a href="#hero">Home</a>
+                </li>
+                <li>
+                  <a href="#introduction">Introduciton</a>
+                </li>
+                <li>
+                  <a href="#critique">Website Critique</a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    target="_blank"
+                    >Press Me</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div id="contact">
+              <h3>Contact Us</h3>
+              <p>
+                <i class="fa fa-map-marker"></i> University of San Carlos - TC
+              </p>
+              <p><i class="fa fa-phone"></i> 1-290-200-0572</p>
+              <p><i class="fa fa-envelope"></i> info@mommy.studios.com</p>
+            </div>
+          </div>
+        </div>
+        <div id="bottom">
+          <p>© 2025 Mommy Studios. All rights reserved.</p>
+          <div id="socials">
+            <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
