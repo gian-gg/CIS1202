@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>gian.gg</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container-sm" style="width: 100vw; height: auto">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container-sm px-5 px-md-0">
+        <a class="d-sm-none d-block" href="/" draggable="false">
+          <img
+            src="./assets/head.gif"
+            alt="gian.gg"
+            width="36"
+            height="36"
+            class="rounded-2"
+            draggable="false"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item d-none d-sm-block">
+              <a class="nav-link" href="/" draggable="false">
+                <img
+                  src="./assets/head.gif"
+                  alt="gian.gg"
+                  width="36"
+                  height="36"
+                  class="rounded-2"
+                  draggable="false"
+                />
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#interests">Interests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#more">More</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main
+      class="container-sm w-100 h-auto d-flex flex-column justify-content-center align-items-center gap-5"
+    >
+      <section
+        id="home"
+        class="mycontainer w-100 rounded-4 d-flex flex-column justify-content-center align-items-center text-center"
+        style="height: 700px"
+      >
+        <h1 class="display-1 fw-bolder">Geri Gian Epanto</h1>
+        <p class="text-white-50 fs-4">Student, Web Developer, Designer.</p>
+        <a href="#about" class="btn btn-outline-light">Click Me!</a>
+      </section>
+
+      <section
+        id="about"
+        class="mycontainer container-fluid w-100 h-auto rounded-4 d-flex flex-column justify-content-center align-items-center text-center p-5"
+        style="min-height: 600px"
+      >
+        <div class="row w-100 h-100">
+          <div
+            class="col-lg-6 d-flex justify-content-center align-items-center"
+          >
+            <img
+              id="pfp"
+              src="./assets/pfp.png"
+              alt="Profile Picture"
+              class="rounded-circle img-fluid"
+              draggable="false"
+            />
+          </div>
+
+          <div
+            class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-center text-lg-start"
+          >
+            <h2 class="text-white fw-bold mb-4 w-100 mt-4 mt-lg-0">
+              Geri Gian Epanto
+            </h2>
+            <p class="text-white-50 mx-3 w-100">
+              <i class="bi bi-pin-map"></i> Cebu City, Philippines
+            </p>
+            <p class="text-white-50 fs-4 mb-4">
+              A <em>First Year Computer Science Student</em> with a love for
+              <strong>web development</strong> and <strong>design</strong>.
+            </p>
+            <div>
+              <a
+                href="https://www.facebook.com/epanto.gg/"
+                class="btn btn-outline-light mb-3"
+                target="_blank"
+                ><i class="bi bi-facebook"></i> Facebook</a
+              >
+              <a
+                href="https://www.instagram.com/gian.gg_/"
+                class="btn btn-outline-light mb-3"
+                target="_blank"
+                ><i class="bi bi-instagram"></i> Instagram</a
+              >
+              <a
+                href="https://github.com/gian-gg"
+                class="btn btn-outline-light mb-3"
+                target="_blank"
+                ><i class="bi bi-github"></i> GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/gian-gg"
+                class="btn btn-outline-light mb-3"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i> LinkedIn</a
+              >
+
+              <img
+                src="https://skills-icons.vercel.app/api/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,php,python,c,arduino"
+                alt="skills"
+                draggable="false"
+                class="w-100 mt-4"
+              />
+              <img
+                src="https://skills-icons.vercel.app/api/icons?i=figma,vercel,netlify,firebase,mysql,notion,git,github,postman,vscode,daisyui,clerk"
+                alt="other tech"
+                draggable="false"
+                class="w-100 mt-2"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="interests"
+        class="mycontainer w-100 h-auto rounded-4 d-flex flex-column justify-content-center align-items-center text-center text-white p-4"
+        style="min-height: 600px"
+      >
+        <h2 class="fw-bold mb-4 mt-4">My Interests & Hobbies</h2>
+        <p class="text-white-50 fs-5 mb-4">
+          When I'm not coding, I enjoy a variety of activities that keep me
+          engaged and inspired.
+        </p>
+
+        <div class="row w-75 mt-4">
+          <!-- Interest: Web Development -->
+          <div class="col-md-4 d-flex flex-column align-items-center mb-4">
+            <i class="bi bi-code-slash fs-1 text-white-50"></i>
+            <h5 class="fw-bold mt-3">Web Development</h5>
+            <p class="text-white-50 text-center">
+              I love building websites and exploring the latest technologies in
+              web development.
+            </p>
+          </div>
+
+          <!-- Interest: Graphic Design -->
+          <div class="col-md-4 d-flex flex-column align-items-center mb-4">
+            <i class="bi bi-palette fs-1 text-white-50"></i>
+            <h5 class="fw-bold mt-3">Graphic Design</h5>
+            <p class="text-white-50 text-center">
+              Designing visually appealing graphics is one of my creative
+              outlets.
+            </p>
+          </div>
+
+          <!-- Interest: Learning -->
+          <div class="col-md-4 d-flex flex-column align-items-center mb-4">
+            <i class="bi bi-book fs-1 text-white-50"></i>
+            <h5 class="fw-bold mt-3">Learning</h5>
+            <p class="text-white-50 text-center">
+              I'm always eager to expand my knowledge, whether it's new
+              programming languages, tech trends, or personal development.
+            </p>
+          </div>
+
+          <!-- Interest: Exploring New Tech -->
+          <div class="col-md-4 d-flex flex-column align-items-center mb-4">
+            <i class="bi bi-lightbulb fs-1 text-white-50"></i>
+            <h5 class="fw-bold mt-3">Exploring New Tech</h5>
+            <p class="text-white-50 text-center">
+              I love experimenting with the latest technologies and frameworks
+              in software development.
+            </p>
+          </div>
+
+          <!-- Interest: Gaming -->
+          <div class="col-md-4 d-flex flex-column align-items-center mb-4">
+            <i class="bi bi-controller fs-1 text-white-50"></i>
+            <h5 class="fw-bold mt-3">Gaming</h5>
+            <p class="text-white-50 text-center">
+              Playing games is both a hobby and a way to relax and unwind.
+            </p>
+          </div>
+
+          <!-- Interest: Music -->
+          <div class="col-md-4 d-flex flex-column align-items-center mb-4">
+            <i class="bi bi-music-note fs-1 text-white-50"></i>
+            <h5 class="fw-bold mt-3">Listening to Music</h5>
+            <p class="text-white-50 text-center">
+              Music helps me stay focused and motivated during work and study.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="more"
+        class="mycontainer w-100 h-auto rounded-4 d-flex flex-column justify-content-center align-items-center text-center text-white p-4"
+        style="min-height: 400px"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 text-md-end text-center mb-3 mb-md-0">
+              <i class="bi bi-motherboard fs-1 text-white-50"></i>
+              <h3 class="fw-bold">Computer Science</h3>
+              <p class="text-white-50">
+                “Computers have always been my passion. I love problem-solving
+                and exploring new technologies, making Computer Science the
+                perfect field to fuel my curiosity.”
+              </p>
+            </div>
+
+            <div
+              class="col-md-2 d-flex justify-content-center align-items-center"
+            >
+              <div
+                class="border-end border-light d-none d-md-block"
+                style="height: 100px; width: 2px"
+              ></div>
+
+              <div
+                class="border-top border-light d-md-none w-50 mb-5"
+                style="height: 2px"
+              ></div>
+            </div>
+
+            <div class="col-md-5 text-md-start text-center">
+              <i class="bi bi-gem fs-1 text-white-50"></i>
+              <h3 class="fw-bold">Motivation</h3>
+              <p class="text-white-50">
+                “I'm driven by the desire to create and innovate. I believe that
+                technology has the power to change the world, and I want to be a
+                part of that change.”
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-sm text-center p-4">
+      &copy; 2025, gian.gg. All Rights Reserved.
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
