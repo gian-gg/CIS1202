@@ -1,0 +1,37 @@
+header {
+  width: 100%;
+  padding-top: 1rem;
+
+  position: absolute;
+  z-index: 10;
+}
+
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 2rem;
+}
+
+header img {
+  width: 3rem;
+  opacity: 0.9;
+}
+
+header #social-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header a {
+  text-decoration: none;
+  background-color: var(--color-base);
+  padding: 8px 12px;
+  border-radius: var(--border-radius);
+}
+
+header a:hover {
+  background-color: var(--color-base-hover);
+}

@@ -1,0 +1,79 @@
+section {
+  /* Initially hidden */
+  display: none;
+  opacity: 0;
+}
+
+#hitbox:hover #cover {
+  animation: fadeOut 500ms forwards;
+}
+
+#hitbox:hover #content1 {
+  display: flex;
+  animation: fadeInOut 4s ease-in-out 1s forwards;
+}
+
+#hitbox:hover #content2 {
+  display: flex;
+  animation: fadeInOut 4s ease-in-out 5s forwards;
+}
+
+#hitbox:hover #content3 {
+  display: flex;
+  animation: fadeInOut 6s ease-in-out 9s forwards;
+}
+
+#hitbox:hover #content4 {
+  display: flex;
+  animation: fadeInOut 4s ease-in-out 15s forwards;
+}
+
+/* Final content appears at the end */
+#hitbox:hover #content5 {
+  display: flex;
+  animation: fadeIn 1s ease-in 19s forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.3;
+  }
+  35% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0.7;
+  }
+  85% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
