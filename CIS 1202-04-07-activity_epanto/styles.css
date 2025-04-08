@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --text-primary: rgba(255, 255, 255, 0.885);
+  --text-secondary: rgba(255, 255, 255, 0.593);
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+
+  font-family: "Poppins", serif;
+
+  overflow-x: hidden;
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.127);
+}
+
+.custom-text-primary {
+  color: var(--text-primary);
+}
+
+.custom-text-secondary {
+  color: var(--text-secondary);
+}
+
+.custom-btn-hover:hover {
+  color: var(--text-primary);
+}
+
+.table thead,
+.table tbody,
+.table tr,
+.table th,
+.table td {
+  background-color: transparent !important;
+}
